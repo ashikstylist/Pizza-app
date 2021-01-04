@@ -9,8 +9,88 @@
     <title>Pizza app</title>
 </head>
 <body>
+    <div id="loader"><img id="chef-loading" src="img/giphy.webp" alt=""></div>
 
+
+    <div id="main">
     
+      <h3  class="title text-center">Make your own Pizza</h3>
+       <div class="pizza">
+                <img id="base"  src="img/base.png" class="img-fluid" alt="Pizza Base">
+                <div id="sauce"></div>
+                <div id="pepperoni">
+                    <img class="pepperoni-1"  src="img/peperoni-clipart.png" class="img-fluid" alt="Pizza Base">
+                    <img class="pepperoni-2"  src="img/peperoni-clipart.png" class="img-fluid" alt="Pizza Base">
+                    <img class="pepperoni-3"  src="img/peperoni-clipart.png" class="img-fluid" alt="Pizza Base">
+                    <img class="pepperoni-4"  src="img/peperoni-clipart.png" class="img-fluid" alt="Pizza Base">
+                    <img class="pepperoni-5"  src="img/peperoni-clipart.png" class="img-fluid" alt="Pizza Base">
+                    <img class="pepperoni-6"  src="img/peperoni-clipart.png" class="img-fluid" alt="Pizza Base">
+                </div>
+                <div id="olives">
+                    <img class="olive-1"  src="img/olives.png" class="img-fluid" alt="Pizza Base">
+                    <img class="olive-2"  src="img/olives.png" class="img-fluid" alt="Pizza Base">
+                    <img class="olive-3"  src="img/olives.png" class="img-fluid" alt="Pizza Base">
+                    <img class="olive-4"  src="img/olives.png" class="img-fluid" alt="Pizza Base">
+                    <img class="olive-5"  src="img/olives.png" class="img-fluid" alt="Pizza Base">
+                    <img class="olive-6"  src="img/olives.png" class="img-fluid" alt="Pizza Base">
+                    <img class="olive-7"  src="img/olives.png" class="img-fluid" alt="Pizza Base">
+                    <img class="olive-8"  src="img/olives.png" class="img-fluid" alt="Pizza Base">
+                    <img class="olive-9"  src="img/olives.png" class="img-fluid" alt="Pizza Base">
+                </div>
+                <div id="mushroom">
+                    <img class="mushroom-1"  src="img/mushroom.jpg" class="img-fluid" alt="Pizza Base">
+                    <img class="mushroom-2"  src="img/mushroom.jpg" class="img-fluid" alt="Pizza Base">
+                    <img class="mushroom-3"  src="img/mushroom.jpg" class="img-fluid" alt="Pizza Base">
+                    <img class="mushroom-4"  src="img/mushroom.jpg" class="img-fluid" alt="Pizza Base">
+                </div>
+       </div>
+    
+        
+       <div class="panel-modal">
+    
+           <!-- <div style="margin-top:500px;margin-right: 20px;"  class="custom-control custom-checkbox">
+                <input id="sauce-check" style="height: 30px;width:30px;" type="checkbox" onclick="sauce()"><br>
+                <label style="margin-left:-5px">Sause</label>
+            </div>
+            <div style="margin-top:500px;margin-right: 5px;"  class="custom-control custom-checkbox">
+                <input id="pepperoni-check" style="height: 30px;width:30px;" type="checkbox" onclick="pepperoni()"><br>
+                <label  style="margin-left:-25px">Pepperoni</label>
+            </div>
+            <div style="margin-top:500px;margin-right: 20px;"  class="custom-control custom-checkbox">
+                <input id="olives-check" style="height: 30px;width:30px;" type="checkbox"  onclick="olives()"><br>
+                <label  style="margin-left:-5px">Olives</label>
+            </div>
+            <div style="margin-top:500px;margin-right: 20px;"  class="custom-control custom-checkbox">
+                <input id="mushroom-check" style="height: 30px;width:30px;" type="checkbox" onclick="mushroom()"><br>
+                <label  style="margin-left:-25px">Mushroom</label>
+            </div> -->
+    
+            <div class="form-div">
+                <form class="form">
+                    <div class="inputGroup">
+                      <input id="sauce-check" onclick="sauce()" type="checkbox" />
+                      <label for="sauce-check">Sauce</label>
+                    </div>
+                    <div class="inputGroup">
+                      <input id="pepperoni-check" onclick="pepperoni()"  type="checkbox"/>
+                      <label for="pepperoni-check">Pepperoni</label>
+                    </div>
+                    <div class="inputGroup">
+                      <input id="olives-check" onclick="olives()" type="checkbox"/>
+                      <label for="olives-check">Olives</label>
+                    </div>
+                    <div class="inputGroup">
+                        <input id="mushroom-check" onclick="mushroom()" type="checkbox"/>
+                        <label for="mushroom-check">Mushroom</label>
+                    </div>
+    
+                    <a onClick="next()" href="billing.html"  type="button" class="btn next-btn"><i class="fa fa-play" style="font-size:24px;margin-left:5px ;color: white;"></i></a>
+                </form>
+            </div>
+       </div>
+    
+    </div>
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>   
 </body>
