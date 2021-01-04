@@ -1,0 +1,410 @@
+  .next-btn{
+    border-right:10px;
+    border-left:10px;
+    float: right;
+    padding-top:12px;
+    border-radius: 100px;
+    margin-top: 45px;
+    height:50px;
+    width: 50px;
+    background: linear-gradient(to right, #f7971e, #ffd200); 
+  } 
+
+   .title{
+        padding-top:50px;
+        margin-left: -50%;
+    }
+
+     .pizza{
+
+        position:absolute;
+            margin:auto;
+            top:0vh;
+            left:-50%;
+            bottom:0;
+            right:0; 
+
+     }
+
+        #base{
+            max-width: 50rem;
+            position:absolute;
+            margin:auto;
+            top:0vh;
+            left:0;
+            bottom:0;
+            right:0; 
+            border-radius: 100%;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+        
+        #sauce{
+            position:absolute;
+            margin:auto;
+            top:0px;
+            left:0;
+            bottom:0;
+            right:0; 
+            width: 22rem;
+            height: 22rem;
+            border-radius: 100%;
+            background-color: tomato;
+            display:none
+
+        }
+
+        #pepperoni{
+            display: none;
+            position:absolute;
+            margin:auto;
+            top:20px;
+            left:0;
+            bottom:0;
+            right:0; 
+         
+        }
+
+        .pepperoni-1{
+            position:absolute;
+            margin:auto;
+            top:-220px;
+            left:-140px;
+            bottom:0;
+            right:0; 
+         
+        }
+
+        .pepperoni-2{
+            position:absolute;
+            margin:auto;
+            top:-220px;
+            left:140px;
+            bottom:0;
+            right:0; 
+         
+        }
+
+        .pepperoni-3{
+            position:absolute;
+            margin:auto;
+            top:0px;
+            left:-230px;
+            bottom:0;
+            right:0; 
+         
+        }
+        .pepperoni-4{
+            position:absolute;
+            margin:auto;
+            top:0px;
+            left:230px;
+            bottom:0;
+            right:0px; 
+         
+        }
+
+        .pepperoni-5{
+            position:absolute;
+            margin:auto;
+            top:190px;
+            left:0px;
+            bottom:0;
+            right:0; 
+         
+        }
+
+        .pepperoni-6{
+            position:absolute;
+            margin:auto;
+            top:-30px;
+            left:0px;
+            bottom:0;
+            right:0; 
+         
+        }
+
+        #olives{
+            display: none;
+            position:absolute;
+            margin:auto;
+            top:20px;
+            left:0;
+            bottom:0;
+            right:0; 
+            transform:none;
+         
+        }
+
+        .olive-1{
+            max-width: 3rem;
+            position:absolute;
+            margin:auto;
+            top:60px;
+            left:130px;
+            bottom:0;
+            right:0; 
+         
+        }
+
+        .olive-2{
+            max-width: 3rem;
+            position:absolute;
+            margin:auto;
+            top:10px;
+            left:-110px;
+            bottom:0;
+            right:0; 
+         
+        }
+
+        .olive-3{
+            max-width: 3rem;
+            position:absolute;
+            margin:auto;
+            top:250px;
+            left:0px;
+            bottom:0;
+            right:0; 
+         
+        }
+
+        .olive-4{
+            max-width: 3rem;
+            position:absolute;
+            margin:auto;
+            top:-100px;
+            left:10px;
+            bottom:0;
+            right:0; 
+        }
+
+        .olive-5{
+            max-width: 3rem;
+            position:absolute;
+            margin:auto;
+            top:-230px;
+            left:-100px;
+            bottom:0;
+            right:0; 
+         
+        }
+        .olive-6{
+            max-width: 3rem;
+            position:absolute;
+            margin:auto;
+            top:-200px;
+            left:150px;
+            bottom:0;
+            right:0; 
+         
+        }
+        .olive-7{
+            max-width: 3rem;
+            position:absolute;
+            margin:auto;
+            top:180px;
+            left:-170px;
+            bottom:0;
+            right:0; 
+         
+        }
+        .olive-8{
+            max-width: 3rem;
+            position:absolute;
+            margin:auto;
+            top:-130px;
+            left:-240px;
+            bottom:0;
+            right:0; 
+         
+        }
+        .olive-9{
+            max-width: 3rem;
+            position:absolute;
+            margin:auto;
+            top:200px;
+            left:170px;
+            bottom:0;
+            right:0; 
+         
+        }
+
+        #mushroom{
+            display: none;
+            position:absolute;
+            margin:auto;
+            top:20px;
+            left:0;
+            bottom:0;
+            right:0; 
+         
+        }
+
+        .mushroom-1{
+
+            max-width: 2rem;
+            position:absolute;
+            margin:auto;
+            top:100px;
+            left:240px;
+            bottom:0;
+            right:0; 
+            transform: rotate(45deg);
+            
+        }
+
+        .mushroom-2{
+
+            max-width: 3rem;
+            position:absolute;
+            margin:auto;
+            top:50px;
+            left:-20px;
+            bottom:0;
+            right:0; 
+            transform: rotate(90deg);
+
+            }
+         .mushroom-3{
+
+            max-width: 2.5rem;
+            position:absolute;
+            margin:auto;
+            top:-250px;
+            left:5px;
+            bottom:0;
+            right:0; 
+            transform: rotate(-30deg);
+
+            }
+
+        .mushroom-4{
+
+                max-width: 2.3rem;
+                position:absolute;
+                margin:auto;
+                top:240px;
+                left:-140px;
+                bottom:0;
+                right:0; 
+                transform: rotate(-20deg);
+
+        }
+
+       
+
+        .panel-modal{
+            height: 100vh; 
+            background-color: #222;
+            width: 50%;
+            position: absolute;
+            right: 0px;
+            top:0px;
+        }
+
+                @media only screen and (max-width: 900px) {
+                    .title{
+                        padding-top:50px;
+                        margin-left: 0%;
+                    }
+
+                    .pizza{
+
+                            position:absolute;
+                            margin:auto;
+                            top:-10vh;
+                            left:0%;
+                            bottom:0;
+                            right:0; 
+                
+                     }
+
+                    #base {
+                        max-width: 20rem;
+
+                    }
+                    #sauce {
+                        width: 15rem;
+                        height: 15rem;
+
+                    }
+
+                    .pepperoni-1{
+                        max-width: 8rem;
+                        top: -150px;
+                        left: -100px;
+                    }
+                    .pepperoni-2{
+                        max-width: 8rem;
+                        top: -150px;
+                        left: 100px;
+                    }
+                    .pepperoni-3{
+                        max-width: 8rem;
+                        left: -150px;
+                    }
+                    .pepperoni-4{
+                        max-width: 8rem;
+                        left: 150px;
+                    }
+                    .pepperoni-5{
+                        max-width: 8rem;
+                        top: 120px;
+                    }
+                    .pepperoni-6{
+                        max-width: 8rem;
+                    }
+
+                    #olives{
+                        transform:scale(0.7,0.7);
+                    }
+
+                    .olive-1, .olive-2, .olive-3, .olive-4, .olive-5, .olive-6, .olive-7, .olive-8, .olive-9{
+                        max-width: 2.5rem;
+                    }
+
+                    #mushroom{
+                        transform:scale(0.7,0.7);
+                    }
+
+                    
+                    .panel-modal{
+                        
+                        background: #222;
+                        width: 100%;
+                        height: 80vh;
+                        position: relative;
+                        top:70vh;
+                    }
+
+
+                }
+
+                @media only screen and (max-height: 450px) {
+
+                    .pizza{
+
+                        position:absolute;
+                        margin:auto;
+                        top:50vh;
+                        left:0%;
+                        bottom:0;
+                        right:0; 
+            
+                     }
+
+                    .panel-modal{
+                        
+                    background: #222;
+                    width: 100%;
+                    height: 120vh;
+                    position: relative;
+                    top:100vh;
+                    
+                    }
+
+                    .next-btn{
+                        margin-top: 20px;
+                    }
+
+                }
