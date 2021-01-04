@@ -1,0 +1,14 @@
+#chef-loading{
+ border-radius: 2000px;
+ max-width: 13rem;
+ position: absolute;
+ margin: auto;
+ top: 0;
+ left: 0;
+ right: 0;
+ bottom: 0;
+}
+
+#main {
+  display: none;
+}
